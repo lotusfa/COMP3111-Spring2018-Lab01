@@ -10,14 +10,14 @@ public class Lab1Activity {
 		min = max = arr[0];
 		// Write your code here..
 		for (int value : arr) {
-//			sum += value;
-//			if (value < min) {
-//				min = value;
-//			}
-//			if (value > max) {
-//				max = value;
-//			}
-//		}
+			sum += value;
+			if (value < min) {
+				min = value;
+			}
+			if (value > max) {
+				max = value;
+			}
+		}
 		System.out.println(String.format("Sum of the numbers is %d", sum));
 		System.out.println(String.format("Min = %d; Max = %d", min, max));
 
